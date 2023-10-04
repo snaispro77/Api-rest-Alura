@@ -11,9 +11,4 @@ import java.util.List;
 public class ErrorInfo {
     private  int codigo;
     private  String descripcion;
-    private List<String> errores;
-    public ErrorInfo(int codigo, String descripcion) {
-        this.codigo = codigo;
-        this.descripcion = descripcion;
-    }
 }
